@@ -1,0 +1,13 @@
+.spacer {
+  flex: 1 1 auto;
+}
+
+.btnEntrar {
+  margin: 5px;
+}
+
+.btnCadastro {
+  background: #1767e5 0% 0% no-repeat padding-box;
+  color: white;
+  margin: 5px;
+}
