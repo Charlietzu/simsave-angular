@@ -1,1 +1,11 @@
-<img fxFill src="/assets/img/banner@2x.png" />
+<div class="wrapper">
+  <div>
+    <img fxFill src="/assets/img/banner@2x.png" />
+  </div>
+
+  <div class="cardsContainer">
+    <div *ngFor="let product of products">
+      <app-card [product]="product"></app-card>
+    </div>
+  </div>
+</div>
