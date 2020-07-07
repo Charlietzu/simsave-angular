@@ -4,6 +4,11 @@ import { Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
 import { Product } from './product.model';
 
+/**
+ * Aqui é onde são feitas as função relacionadas a requisições feitas para os produtos
+ * da API.
+ */
+
 @Injectable({
   providedIn: 'root',
 })
