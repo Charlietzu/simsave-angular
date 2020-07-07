@@ -4,10 +4,13 @@
 
 .btnEntrar {
   margin: 5px;
+  height: 36px;
+  color: #2196f3;
 }
 
 .btnCadastro {
   background: #1767e5 0% 0% no-repeat padding-box;
   color: white;
   margin: 5px;
+  height: 36px;
 }

@@ -21,6 +21,7 @@ import { FooterComponent } from './footer/footer.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { LoginComponent } from './login/login.component';
 import { HomeComponent } from './home/home.component';
+import { SignupContainerComponent } from './signup-container/signup-container.component';
 
 @NgModule({
   declarations: [
@@ -31,6 +32,7 @@ import { HomeComponent } from './home/home.component';
     FooterComponent,
     LoginComponent,
     HomeComponent,
+    SignupContainerComponent,
   ],
   imports: [
     BrowserModule,

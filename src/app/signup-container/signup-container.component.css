@@ -1,0 +1,31 @@
+.signUpContainer {
+  background: rgb(23, 103, 229);
+  background: linear-gradient(
+    180deg,
+    rgba(141, 179, 240, 1) 1%,
+    rgba(246, 246, 249, 1) 100%
+  );
+  margin-top: 5%;
+}
+
+.cardSignUp {
+  background: rgb(57, 122, 225);
+  background: linear-gradient(
+    90deg,
+    rgba(57, 122, 225, 1) 0%,
+    rgba(173, 219, 239, 1) 100%
+  );
+  color: white;
+  margin-top: 10%;
+  border-radius: 15px;
+  padding: 40px 40px;
+}
+
+.cardText {
+  text-align: center;
+}
+
+.btnSignUp {
+  background-color: white;
+  color: #1767e5;
+}
