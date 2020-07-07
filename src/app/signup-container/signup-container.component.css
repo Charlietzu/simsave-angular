@@ -5,6 +5,12 @@
     rgba(141, 179, 240, 1) 1%,
     rgba(246, 246, 249, 1) 100%
   );
+  background: linear-gradient(
+    180deg,
+    rgba(223, 234, 251, 1) 80%,
+    rgba(246, 246, 249, 1) 80%
+  );
+
   margin-top: 5%;
 }
 
