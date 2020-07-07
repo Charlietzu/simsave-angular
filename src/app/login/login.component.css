@@ -1,0 +1,42 @@
+.login {
+  background: rgb(23, 103, 229);
+  background: linear-gradient(
+    180deg,
+    rgba(23, 103, 229, 1) 0%,
+    rgba(23, 103, 229, 1) 50%,
+    rgba(246, 246, 249, 1) 50%
+  );
+  width: 100%;
+  height: 100%;
+}
+
+.card {
+  border-radius: 10px;
+}
+
+.title {
+  color: #1767e5;
+}
+
+.subTitle {
+  text-align: justify;
+  color: #5d5d5d;
+}
+
+.btnEntrar {
+  background-color: #1767e5;
+  color: white;
+}
+
+.logo {
+  margin-bottom: 10px;
+}
+
+::ng-deep .mat-form-field-appearance-legacy .mat-form-field-underline {
+  background-color: #1767e5 !important;
+  height: 2px !important;
+}
+
+::ng-deep .mat-form-field.mat-focused .mat-form-field-ripple {
+  background-color: #1767e5 !important;
+}

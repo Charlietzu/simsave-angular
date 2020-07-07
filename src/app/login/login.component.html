@@ -1,0 +1,34 @@
+<div class="login" fxLayout="row" fxLayoutAlign="center center">
+  <div fxLayout="column" fxLayoutAlign="center center">
+    <a routerLink="/" routerLinkActive="active"
+      ><img class="logo" src="assets/svg/LogoSimSaveV2.svg"
+    /></a>
+    <mat-card class="card">
+      <mat-card-header fxLayout="row" fxLayoutAlign="center">
+        <mat-card-title class="title">Entrar na plataforma</mat-card-title>
+      </mat-card-header>
+      <mat-card-content style="text-align: center;">
+        <p class="subTitle">
+          Digite seu e-mail e senha abaixo para entrar na plataforma.
+        </p>
+      </mat-card-content>
+      <mat-card-content style="text-align: center;">
+        <form>
+          <p>
+            <mat-form-field appearance="legacy" [style.width.px]="300">
+              <input matInput placeholder="Nome" />
+            </mat-form-field>
+          </p>
+          <p>
+            <mat-form-field appearance="legacy" [style.width.px]="300">
+              <input type="password" matInput placeholder="Senha" />
+            </mat-form-field>
+          </p>
+        </form>
+      </mat-card-content>
+      <mat-card-actions fxLayout="row" fxLayoutAlign="center center">
+        <button mat-raised-button class="btnEntrar">Entrar</button>
+      </mat-card-actions>
+    </mat-card>
+  </div>
+</div>

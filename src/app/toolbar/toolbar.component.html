@@ -1,8 +1,20 @@
 <mat-toolbar>
-  <img src="assets/svg/LogoSimSave.svg" />
+  <a routerLink="/" routerLinkActive="active"
+    ><img src="assets/svg/LogoSimSave.svg"
+  /></a>
+
   <span class="spacer"></span>
   <div>
-    <button mat-stroked-button>ENTRAR</button>
-    <button mat-button class="btnCadastro">CADASTRE-SE</button>
+    <button mat-stroked-button routerLink="/login" routerLinkActive="active">
+      ENTRAR
+    </button>
+    <button
+      mat-button
+      class="btnCadastro"
+      routerLink="/login"
+      routerLinkActive="active"
+    >
+      CADASTRE-SE
+    </button>
   </div>
 </mat-toolbar>
