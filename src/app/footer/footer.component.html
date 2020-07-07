@@ -1,1 +1,28 @@
-<p>footer works!</p>
+<footer
+  fxLayout="row wrap"
+  fxLayoutAlign="space-around center"
+  fxLayoutAlign.xs="space-between"
+>
+  <div fxFlex="33%" fxFlex.xs="100%" fxLayoutAlign="center">
+    <img src="assets/svg/LogoSimSave.svg" />
+  </div>
+  <div fxFlex="33%" fxFlex.xs="100%" fxLayoutAlign="center">
+    <fa-icon [icon]="faTwitterSquare" size="2x"></fa-icon>
+    <fa-icon [icon]="faFacebookSquare" size="2x"></fa-icon>
+    <fa-icon [icon]="faInstagramSquare" size="2x"></fa-icon>
+    <fa-icon [icon]="faYoutubeSquare" size="2x"></fa-icon>
+    <fa-icon [icon]="faLinkedin" size="2x"></fa-icon>
+  </div>
+  <div fxFlex="33%" fxFlex.xs="100%" fxLayoutAlign="center">
+    <div fxLayout="column" fxLayoutAlign="start start">
+      <div fxLayout="row" fxLayoutAlign="start start" id="contact">
+        <fa-icon [icon]="faEnvelope" size="2x" id="mailIco"></fa-icon>
+        <h2>Fale Conosco</h2>
+      </div>
+      <p>
+        Dúvida, crítica sugestão ou elogio? Envie um e-mail para
+        suporte@simsave.com.br
+      </p>
+    </div>
+  </div>
+</footer>

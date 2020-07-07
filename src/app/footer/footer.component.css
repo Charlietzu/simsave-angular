@@ -1,0 +1,23 @@
+footer {
+  height: 250px;
+  position: relative;
+  bottom: 0;
+  color: #b3bdcc;
+}
+
+h2 {
+  text-align: left;
+}
+
+fa-icon {
+  margin-left: 3px;
+  margin-right: 3px;
+}
+
+#contact {
+  height: 35px;
+}
+
+#mailIco {
+  margin-right: 6px;
+}

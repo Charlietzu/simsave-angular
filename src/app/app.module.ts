@@ -16,6 +16,7 @@ import { MatCardModule } from '@angular/material/card';
 
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { FooterComponent } from './footer/footer.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
@@ -34,6 +35,7 @@ import { FooterComponent } from './footer/footer.component';
     FlexLayoutModule,
     MatCardModule,
     HttpModule,
+    FontAwesomeModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
