@@ -3,7 +3,7 @@ footer {
   position: relative;
   bottom: 0;
   color: #b3bdcc;
-  padding-top: 40px;
+  margin-top: 10px;
 }
 
 h2 {
@@ -30,4 +30,8 @@ fa-icon {
 .contactInfo {
   padding-left: 10px;
   padding-right: 10px;
+}
+
+.footerContainer {
+  padding-bottom: 40px;
 }

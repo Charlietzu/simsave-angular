@@ -1,20 +1,36 @@
 <footer
   fxLayout="row wrap"
-  fxLayoutAlign="space-around center"
+  fxLayoutAlign="space-between center"
   fxLayoutAlign.xs="space-around"
-  fxLayoutGap.xs="40px grid"
+  fxLayoutGap.xs="grid"
 >
-  <div fxFlex="33%" fxFlex.xs="100%" fxLayoutAlign="center">
+  <div
+    class="footerContainer"
+    fxFlex="33%"
+    fxFlex.xs="100%"
+    fxLayoutAlign="center"
+  >
     <img src="assets/svg/LogoSimSave.svg" />
   </div>
-  <div fxFlex="33%" fxFlex.xs="100%" fxLayoutAlign="center">
+  <div
+    class="footerContainer"
+    fxFlex="33%"
+    fxFlex.xs="100%"
+    fxLayoutAlign="center"
+  >
     <fa-icon [icon]="faTwitterSquare" size="2x"></fa-icon>
     <fa-icon [icon]="faFacebookSquare" size="2x"></fa-icon>
     <fa-icon [icon]="faInstagramSquare" size="2x"></fa-icon>
     <fa-icon [icon]="faYoutubeSquare" size="2x"></fa-icon>
     <fa-icon [icon]="faLinkedin" size="2x"></fa-icon>
   </div>
-  <div class="contactInfo" fxFlex="33%" fxFlex.xs="100%" fxLayoutAlign="center">
+  <div
+    class="footerContainer"
+    class="contactInfo"
+    fxFlex="33%"
+    fxFlex.xs="100%"
+    fxLayoutAlign="center"
+  >
     <div
       fxLayout="column"
       fxLayoutAlign="center center"
