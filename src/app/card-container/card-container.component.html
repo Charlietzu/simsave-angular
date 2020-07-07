@@ -3,8 +3,13 @@
     <img fxFill src="/assets/img/banner@2x.png" />
   </div>
 
-  <div class="cardsContainer">
-    <div *ngFor="let product of products">
+  <div class="cardsContainer" fxLayout="row wrap" fxLayoutGap="16px grid">
+    <div
+      fxFlex="25%"
+      fxFlex.xs="100%"
+      fxFlex.sm="50%"
+      *ngFor="let product of products"
+    >
       <app-card [product]="product"></app-card>
     </div>
   </div>

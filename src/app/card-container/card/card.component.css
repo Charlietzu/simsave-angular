@@ -1,0 +1,9 @@
+.card-button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card {
+  height: 320px;
+}

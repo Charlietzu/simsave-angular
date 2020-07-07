@@ -1,16 +1,20 @@
-<mat-card class="example-card">
-  <mat-card-header>
-    <mat-card-title>{{ product.title }}</mat-card-title>
+<mat-card class="card">
+  <mat-card-header fxLayout="row" fxLayoutAlign="center">
+    <mat-card-title
+      [ngStyle]="{ color: this.product.color }"
+      style="text-transform: uppercase;"
+      fxLayout="space-around"
+      >{{ product.title }}</mat-card-title
+    >
   </mat-card-header>
-  <mat-card-content>
-    <p>
-      {{ product.color }}
-    </p>
+  <mat-card-content style="text-align: center;">
     <p>
       {{ product.text }}
     </p>
   </mat-card-content>
-  <mat-card-actions>
-    <button mat-button>Saiba mais</button>
+  <mat-card-actions fxLayout="row" fxLayoutAlign="center end">
+    <button mat-stroked-button [ngStyle]="{ color: this.product.color }">
+      Saiba mais
+    </button>
   </mat-card-actions>
 </mat-card>

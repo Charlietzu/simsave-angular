@@ -9,7 +9,11 @@ import { Product } from 'src/app/products/product.model';
 export class CardComponent implements OnInit {
   @Input() product: Product;
 
+  colorStyle: string;
+
   constructor() {}
 
-  ngOnInit() {}
+  ngOnInit() {
+    this.colorStyle = `color: ${this.product.color}`;
+  }
 }
