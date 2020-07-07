@@ -1,27 +1,24 @@
-# SimsaveAngular
+# SIMSAVE-ANGULAR
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.9.
+Esse projeto contém uma aplicação web responsiva com front-end em Angular, também são feitas requisições para uma API externa e controle de rotas, através do módulo de rotas do Angular.
 
-## Development server
+# Como usar
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Baixe este repositório e na pasta raíz do projeto execute o seguinte comando para instalar as dependências:
 
-## Code scaffolding
+### `npm install`
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Então, execute o seguinte comando para iniciar a aplicação no navegador:
 
-## Build
+### `ng serve --open`
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+A aplicação será iniciada no endereço:
 
-## Running unit tests
+### `http://localhost:4200`
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+# Bibliotecas utilizadas
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+- material: lib utilizada para criação da interface responsiva.
+- fontawesome: lib utilizada para o uso de ícones personalizados na aplicação.
+- rxjs: lib usada para utilização de um fluxo de dados reativo.
+- flex-layout: lib utilizada para criação de um layout em grids flexíveis.
